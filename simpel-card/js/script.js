@@ -4,25 +4,32 @@ let student1 = [{
     age: 23,
     email : "ma@example.com",
     contact : 1234567890,
- 
+    hobbies: "playing cricket",
+    city: "pune",
 },{
     name: "Dhara",
     lname: "Chaudhary",
     age: 22,
     email : "nisha@example.com",
     contact : 1234567890,
+    hobbies: "dancing",
+    city: "surat",
 },{
     name: "Priya",
     lname: "Patel",
     age: 20,
-    email : "ra@gmail.com",
+    email : "Priya@gmail.com",
     contact : 993456234,
+    hobbies: "singing",
+    city: "mumbai",
 },{
     name: "Nandni",
     lname: "nakum",
     age: 19,
     email : "gopi@gmail.com",
-    contact : 4657833354, 
+    contact : 4657833354,
+    hobbies: "driving",
+    city: "delhi", 
 }
 ,{
     name: "Ragini",
@@ -30,18 +37,24 @@ let student1 = [{
     age: 22,
     email : "zqPfM@example.com",
     contact : 1234567890,
+    hobbies: "drowing",
+    city: "kolkata",
 },{
     name: "Astha",
     lname: "Nakrani",
     age: 20,
     email : "ra@gmail.com",
     contact : 993456234,
+    hobbies: "eating",
+    city: "chennai",
 },{
     name: "gopi",
     lname: "katariya",
     age: 19,
     email : "gopi@gmail.com",
-    contact : 4657833354, 
+    contact : 4657833354,
+    hobbies: "reading",
+    city: "hyderabad", 
 }
 ,{
     name: "Dipali",
@@ -49,18 +62,24 @@ let student1 = [{
     age: 22,
     email : "zqPfM@example.com",
     contact : 1234567890,
+    hobbies: "writing",
+    city: "surat",
 },{
     name: "riya",
     lname: "mangukiya",
     age: 20,
     email : "ra@gmail.com",
     contact : 993456234,
+    hobbies: "swimming",
+    city: "bengaluru",
 },{
     name: "puja",
     lname: "jani",
     age: 19,
     email : "gopi@gmail.com",
     contact : 4657833354, 
+    hobbies: "writing",
+    city: "chandigarh",
 }
 ,{
     name: "nisha",
@@ -68,18 +87,24 @@ let student1 = [{
     age: 22,
     email : "zqPfM@example.com",
     contact : 1234567890,
+    hobbies: "travelling",
+    city: "jaipur",
 },{
     name: "krishna",
     lname: "mangukiya",
     age: 20,
     email : "ra@gmail.com",
     contact : 993456234,
+    hobbies: "raming",
+    city: "agra",
 },{
     name: "Devanshi",
     lname: "katariya",
     age: 19,
     email : "gopi@gmail.com",
     contact : 4657833354, 
+    hobbies: "nature",
+    city: "nagpur",
 }
 ,{
     name: "Rutvi",
@@ -87,18 +112,24 @@ let student1 = [{
     age: 22,
     email : "zqPfM@example.com",
     contact : 1234567890,
+    hobbies: "learning",
+    city: "kota",
 },{
     name: "Kinjal",
     lname: "mar",
     age: 20,
     email : "ra@gmail.com",
     contact : 993456234,
+    hobbies: "wacking",
+    city: "dharamshala",
 },{
     name: "krupali",
     lname: "katariya",
     age: 19,
     email : "gopi@gmail.com",
-    contact : 4657833354, 
+    contact : 4657833354,
+    hobbies: "sleepping",
+    city: "mohali", 
 }
 ,{
     name: "nisha",
@@ -106,18 +137,24 @@ let student1 = [{
     age: 22,
     email : "zqPfM@example.com",
     contact : 1234567890,
+    hobbies: "painting",
+    city: "raipur",
 },{
     name: "mayura",
     lname: "dasai",
     age: 20,
     email : "ra@gmail.com",
     contact : 993456234,
+    hobbies: "fishing",
+    city: "udaipur",
 },{
     name: "pari",
     lname: "chudasma",
     age: 19,
     email : "gopi@gmail.com",
-    contact : 4657833354, 
+    contact : 4657833354,
+    hobbies: "watching tv",
+    city: "vadodara", 
 }
 ,{
     name: "Ridhi",
@@ -125,16 +162,20 @@ let student1 = [{
     age: 22,
     email : "zqPfM@example.com",
     contact : 1234567890 ,
+    hobbies: "cooking",
+    city: "mysore",
 },{
     name: "pinki",
     lname: "vala",
     age: 20,
     email : "ra@gmail.com",
     contact : 993456234,
+    hobbies: "taking bath",
+    city: "noida",
 },];
  
 
 for (let i = 0; i < student1.length-1; i++) {
-card.innerHTML += `<div class=" col card bg-secondary  border-5 text-center  " style= "width: 400px; color: lightgray; margin: 0 auto; padding: 20px; margin-top: 80px; border-radius: 20px; position: relative;"><a href="#"><img src="img/profile.png" style="width:200px; height:200px ; border-radius: 100%; margin-left: 5px; margin-top: -90px;"></a><h2 class="text-bold" >${student1[i].name} ${student1[i].lname}</h2><p class="fs-5 fw-bolder">Age: ${student1[i].age}</p><p class="fs-5 fw-bolder">Email: ${student1[i].email}</p><p class="fs-5 fw-bolder">Grade: ${student1[i].contact}</p><p class="fs-5 fw-bolder">Grade: ${student1[i].grade}</p></div></br></br></br>`
+card.innerHTML += `<div class=" card bg-secondary  border-5 text-center  " style= "width: 400px; color: lightgray; margin: 0 auto; padding: 20px; margin-top: 80px; border-radius: 20px; position: relative;"><a href="#"><img alt="img" class="rounded-circle bg-cover" src="img/profile_${i}.jpg" style="width:200px; height:200px ; border-radius: 100%; margin-left: 5px; margin-top: -90px;"></a><h2 class="text-bold" >${student1[i].name} ${student1[i].lname}</h2><p class="fs-5 fw-bolder">Age :-  ${student1[i].age}</p><p class="fs-5 fw-bolder">Email :-  ${student1[i].email}</p><p  class="fs-5 fw-bolder">Contact :-  ${student1[i].contact}</p><P class="fs-5 fw-bolder">hobbies :- ${student1[i].hobbies}</P><P class="fs-5 fw-bolder">City :- ${student1[i].city}</P></div></br></br></br>`
 };
 
