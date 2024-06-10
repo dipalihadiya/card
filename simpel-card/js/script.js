@@ -24,7 +24,7 @@ let student1 = [{
     city: "mumbai",
 },{
     name: "Nandni",
-    lname: "nakum",
+    lname: "bokha",
     age: 19,
     email : "gopi@gmail.com",
     contact : 4657833354,
